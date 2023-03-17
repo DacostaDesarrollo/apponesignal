@@ -21,7 +21,7 @@ export class AppComponent {
     OneSignal.setLogLevel(6, 0);
     
     // NOTE: Update the setAppId value below with your OneSignal AppId.
-    OneSignal.setAppId("f324d34b-747c-46e2-a25b-e0b7fafd72f9");
+    OneSignal.setAppId("MI-APPID");
     OneSignal.setNotificationOpenedHandler(function(jsonData) {
         console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
     });
