@@ -1,0 +1,7 @@
+{
+  "name": "apponesignal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
